@@ -15,7 +15,7 @@ public string Nome { get; set; }
 
 [Required(ErrorMessage ="Informe seu Título")]
 [StringLength(60, ErrorMessage ="O Título deve possuir até 60 caracteres")]
-public string Título { get; set;}
+public string Titulo { get; set;}
 
 [Required(ErrorMessage ="Escreva sua Avaliação")]
 [StringLength(300, ErrorMessage ="A Avaliação de possuir no máximo 300 caracteres")]
